@@ -1,0 +1,435 @@
+footer{
+	bottom:0;
+	background: none repeat scroll 0% 0% #4C4C4C;
+/*	position: relative;
+	height: 80px;
+	clear: both;
+	margin-top: -80px;*/
+	width:100%;
+}
+
+#bottom_links{
+	color: white;
+	margin-top: 35px;
+	font-size: 0.800rem;
+}
+
+
+#tab-area{
+	margin-left: 0;
+	margin-top: 30px;
+}
+
+#title, #active_title{
+	position: relative;
+    margin-bottom: 0;
+    list-style: none;
+    float: left;
+    margin-left: 0;
+}
+#title > a{
+	  display: block;
+      background-color: #007400;
+      color: white;
+      padding: 1rem 0 1rem 0;
+      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 1rem;
+      text-align: center;
+      width: 200px;
+}
+
+#title > a:hover {
+        background-color: #00B800; }
+
+#active_title > a{
+	display: block;
+	  padding: 1rem 0 1rem 0;
+      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 1rem;
+	  background-color: #00B800;
+      color: white;
+      text-align: center;
+      width: 200px;
+}
+
+#main_tab.tabs-content{
+	border:3px solid #00B800;
+	padding: 0.9375rem;
+}
+
+#login_tab.tabs-content{
+	border:3px solid #00B800;
+	background-color: #00B800;
+	padding: 10px 15px 0 15px;
+	width: 292px;
+}
+
+#login_title{
+	padding-right: 0;
+	padding-left: 0;
+	width: 146px;
+	text-align: center;
+}
+
+#login{
+	margin-top: 150px;
+	margin-right: 30px;
+}
+#label{
+	color:white;
+}
+#label2{
+	color:white;
+	margin-top: 20px;
+}
+
+#loginBtn,#regBtn{
+/*	background-color: #00A000;*/
+	font-size: 1.265rem;
+	margin-bottom: 0;
+}
+
+#back_pic{
+	height: 700px;
+	background: url('../img/banner.jpg');
+	background-size: 1200px 700px;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+/*	margin-top: -20px;*/
+}
+
+#row_height.row{
+	height: 500px;
+}
+
+#logo{
+	height: 40px;
+	width: 40px;
+	margin: 8px 0 0 0;
+}
+#logout{
+	height: 20px;
+	width: 20px;
+/*	margin: 8px 0 0 0;*/
+}
+
+#font{
+	height: 40px;
+	width: 120px;
+	margin: 18px 0 0 0;
+}
+
+#pw{
+	font-size: 12px;
+	color:white;
+	border-bottom: 1px solid white;
+	margin-left: 30px;
+}
+
+#content.large-12.columns{
+	padding: 50px;
+}
+
+#make_bid{
+	color: green;
+	border-bottom: 1px solid green;
+	width: 50%;
+}
+
+#welcome{
+	/*border-right: 1px solid grey;*/
+	padding-right: 10px;
+	color:white;
+}
+
+#vertical_line{
+	color: white;
+	font-weight: bold;
+	background-color: #00B800;
+}
+
+#name.large-12.columns{
+	margin: 20px 0 20px 0;
+}
+
+#word1{
+	margin: 30px 0 0 50px;
+	color:#00B800;
+}
+
+#word2{
+	margin-left: 65px;
+	color:#00B800;
+}
+
+#word3{
+	margin-left: 85px;
+	color:#00B800;
+	font-weight: bold;
+}
+
+
+#profile_form2.large-12.columns{
+	padding-right: 250px;
+}
+
+#pref_pop{
+/*	border:2px solid #00B800;*/
+	padding-top: 20px;
+}
+
+#space.large-1.columns{
+	color:white;
+}
+
+#submit_button{
+	margin-right: 20px;
+	width: 120px;
+	text-align: center;
+	font-weight: bold;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#cancel_button{
+	margin-right: 30px;
+	width: 120px;
+	text-align: center;
+	font-weight: bold;
+	padding-left: 0;
+	padding-right: 0;
+}
+.edit_button{
+	
+	width: 170px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#application_tablist.tabs{
+	margin-top: 20px;
+}
+
+
+#application_tab{
+	padding: 0.1rem 0.5rem;
+	margin-right: 20px;
+	text-align: center;
+}
+
+#application_title{
+	margin: 30px 30px;
+	text-align: center;
+}
+
+#sub_title{
+	margin: 30px 100px 30px 100px;
+	text-align: center;
+	background-color: #00B800;
+	color: white;
+}
+
+#h4Underline {
+	border-bottom: 2px solid #007400;
+	margin-top: 80px;
+}
+
+#about_pic{
+	margin-left: 150px;
+}
+
+.thumb {
+	max-width: 20px;
+	height: auto;
+	margin-left: 1em;
+}
+
+.profile_pic {
+	width: 150px;
+	height: 150px;
+	border: 1px solid #007400;
+	border-radius: 10px;
+}
+
+#title_bg{
+	margin-top: 10px;
+	background-color: #00B800;
+	color: white; 
+	padding-left: 10px;
+}
+
+#loan_status {
+	color: #00b800;
+	font-weight: bold;
+}
+
+#bid_form{
+	/*margin-top: 30px;*/
+	padding: 10px;
+	/*border: 2px solid #FE2E2E;*/
+}
+
+dl {
+ width:100%;
+ overflow:hidden;
+ margin: 0 0 0 0;
+}
+
+dt {
+ float:left;
+ width:50%; 
+}
+
+dd {
+ float:left;
+ width:50%; 
+}
+
+.dl1{
+ width:100%;
+ overflow:hidden;
+ margin: 0 0 0 0;	
+}
+
+.dt1{
+ float:left;
+ width:30%;
+ font-weight: bold;
+}
+
+.dd1{
+ float:left;
+ width:70%;
+}
+
+.atitle {
+	color: #4d4d4d;
+}
+
+.nav_menu_float{
+	float: right;
+}
+
+#menu{
+	margin-right: 130px;
+	margin-top: 20px;
+}
+
+#apply_form{
+	width: 950px;
+
+}
+
+.contact_form_bg{
+	background-color: #EFFBEF;
+	width: 485px;
+	height: 585px;
+	margin-bottom: 30px;
+}
+
+.contact_bg{
+	background-color: #E6E6E6;
+	width: 485px;
+	height: 585px;
+	margin-bottom: 30px;
+}
+
+.contact_title{
+	font-weight: bold;
+	padding: 30px 0 30px 0;
+	text-align: center;
+}
+
+.bold{
+	font-weight: bold;
+	font-size: 0.875rem;
+	padding-left: 50px;
+}
+.normal{
+	padding-left: 50px;
+}
+
+.bold_label{
+	font-weight: bold;
+	padding-left: 50px;
+}
+
+.padding{
+	padding-bottom: 20px;
+}
+
+.upload_pic{
+	font-size: 0.8rem;
+}
+ .postfix{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.profile_size{
+	height: 65px;
+	width: 65px;
+}
+
+.margin{
+	margin-left: -80px;
+}
+
+.margin2{
+	margin-left: -15px;
+}
+
+.word_wrap{
+	word-wrap: break-word;
+}
+
+.border_bottom{
+	padding-bottom: 13px;
+	margin: 0 10px 0 30px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.border_top{
+	padding-top: 13px;
+}
+
+.capital{
+	text-transform: capitalize;
+}
+
+.bidform{
+	padding: 10px;
+	border: 2px solid #00b800;
+}
+
+#bidtable{
+	/*margin-left: 190px;*/
+	/*width:100%;*/
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.bidtable1{
+	/*margin-left: 190px;*/
+	/*width:100%;*/
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#rowBid{
+	margin: 0 auto;
+}
+
+.bidtabl{
+	margin-left: 170px;
+}
+.haha{
+	margin-left: 83px;
+}
+.sb{
+	margin-left: -14px;
+}
+#submit_bid{
+	left:6%;
+}
+

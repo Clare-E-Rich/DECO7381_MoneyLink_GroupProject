@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="MoneyLink" stopOnFirstError="true" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="MoneyLink">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
+            <excludedPath local="true" path="$PROJECT_DIR$/sftp-config.json" />
+            <excludedPath local="true" path="$PROJECT_DIR$/the_site.iml" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
+
